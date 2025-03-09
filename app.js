@@ -15,7 +15,7 @@ dotenv.config();
 // ✅ CORS Setup
 app.use(
   cors({
-    origin: "https://lmsf-98k7.onrender.com", // ✅ Allow only your frontend
+    origin: "https://lmsfr2.onrender.com", // ✅ Allow only your frontend
     credentials: true, // ✅ Required for cookies/sessions
     methods: ["GET", "POST", "PUT", "DELETE"], // ✅ Add allowed methods
     allowedHeaders: ["Content-Type", "Authorization" ,"Set-Cookie"] // ✅ Add necessary headers
